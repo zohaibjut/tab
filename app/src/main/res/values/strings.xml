@@ -2,4 +2,6 @@
     <string name="app_name">TabbedActivity</string>
     <string name="tab_text_1">Pro Training course</string>
     <string name="tab_text_2">Short Training Course</string>
+    <string name="tab_text_3">Short Other Course</string>
+    <string name="tab_text_4">Short an Other Course</string>
 </resources>
