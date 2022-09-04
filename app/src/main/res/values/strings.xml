@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TabbedActivity</string>
+    <string name="tab_text_1">Pro Training course</string>
+    <string name="tab_text_2">Short Training Course</string>
+</resources>
