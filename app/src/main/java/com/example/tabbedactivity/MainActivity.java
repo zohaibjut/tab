@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
 
         tabs.addTab(tabs.newTab().setText("Home"));
         tabs.addTab(tabs.newTab().setText("Sport"));
-        //tabs.addTab(tabs.newTab().setText("Movie"));
+        tabs.addTab(tabs.newTab().setText("Movie"));
 
         tabs.setupWithViewPager(viewPager);
 

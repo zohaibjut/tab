@@ -2,6 +2,7 @@ package com.example.tabbedactivity.ui.main;
 
 import android.content.Context;
 import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
@@ -15,6 +16,7 @@ import com.example.tabbedactivity.fragments.SportFragment;
 public class SectionsPagerAdapter extends FragmentPagerAdapter {
     int totalTabs;
     private final Context mContext;
+    public static String[]  TabTitle= new String[]{"A","B"};
 
     public SectionsPagerAdapter(Context context, FragmentManager fm, int totalTabs) {
         super(fm);
@@ -40,7 +42,11 @@ public class SectionsPagerAdapter extends FragmentPagerAdapter {
     }
 
 
-
+    @Nullable
+    @Override
+    public CharSequence getPageTitle(int position) {
+        return TabTitle[position];
+    }
 
     @Override
     public int getCount() {
